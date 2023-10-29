@@ -1,0 +1,31 @@
+h3{
+color: rgb(0, 0, 0);
+
+}
+.mario-button {
+    background-color: #f00;
+    color: #fff;
+    font-size: 16px;
+    border: 2px solid rgb(43, 255, 0);
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.mario-button:hover {
+    background-color: #1100ff;
+}
+
+.mario, .yoshi{
+    position: absolute;
+}
+
+.mario-button:disabled {
+    background-color: rgb(246, 190, 190);
+    color: #000000;
+}

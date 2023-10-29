@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Aitana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<h3>TRABAJO DE AITANA CASTRO</h3>
+<img id="titulo" src="titulo.png">
+<body style="background-image: url('fondo.jpg'); background-size: cover; background-repeat: no-repeat;">
+    <div style="margin-top: 10%; height: 100px; width: 100%;" id="contenedorMario"> 
+        <img id="mario" src="mario.png" alt="mario" width="85px" class="mario">        
+    </div>
+    <div style="height: 100px; width: 100%;" id="contenerdorYoshi">
+        <img id="yoshi" src="yoshi.png" alt="yoshi" width="75px" class="yoshi">
+    </div>
+    <div>
+        <button id="puntoPartida" class="mario-button" onclick="puntoPartida()">Comenzar</button>
+        <button id="startButton" class="mario-button" onclick="startEmpate()">Empieza la carrera!!</button>
+        <button id="startButtonWithWinner" class="mario-button" onclick="startGanaYoshi()">Gana Yoshi</button>
+        <button id="stopButton" class="mario-button" onclick="stop()">Detener Carrera</button>
+    </div>
+
+    </div>
+    
+    <script src="carrera.js"></script>
+</body>
+</html>
